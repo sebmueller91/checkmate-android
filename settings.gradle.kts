@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Checkmate"
 include(":app")
+include(":checkmatecore")
