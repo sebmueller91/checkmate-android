@@ -1,7 +1,7 @@
 package com.dgs.checkmatecore.di
 
-import com.dgs.checkmatecore.CheckmateCoreProvider
-import com.dgs.checkmatecore.CheckmateCoreProviderImpl
+import com.dgs.checkmatecore.GameStateProvider
+import com.dgs.checkmatecore.GameStateProviderImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -13,5 +13,5 @@ import javax.inject.Singleton
 internal abstract class CheckmateCoreModule {
     @Binds
     @Singleton
-    abstract fun bindCheckmateCoreProvider(impl: CheckmateCoreProviderImpl): CheckmateCoreProvider
+    abstract fun bindCheckmateCoreProvider(impl: GameStateProviderImpl): GameStateProvider
 }

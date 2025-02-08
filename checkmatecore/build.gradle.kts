@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.checkmate.core)
 
     implementation(libs.hilt.android)
+    implementation(libs.androidx.room.compiler)
     kapt(libs.hilt.compiler)
 
     testImplementation(libs.junit)
